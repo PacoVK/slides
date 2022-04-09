@@ -1,0 +1,4 @@
+[subs="attributes"]
+++++
+<h2 style="color: {box-title-color};background-color: {box-background-color};">{box-title}</h2>
+++++

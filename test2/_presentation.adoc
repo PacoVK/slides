@@ -1,0 +1,19 @@
+:backend: revealjs
+:icons: font
+:revealjs_theme: simple
+:revealjsdir: ../../node_modules/reveal.js
+:revealjs_controls: false
+:revealjs_progress: false
+:revealjs_slideNumber: false
+:revealjs_history: true
+:revealjs_center: true
+:revealjs_transition: fade
+:revealjs_backgroundTransition: fade
+:revealjs_parallaxBackgroundImage: images/background.jpg
+:revealjs_parallaxBackgroundSize: 4892px 3261px
+:source-highlighter: highlightjs
+:docinfo: shared
+
+=== Test 2
+
+include::../_shared/about.adoc[]

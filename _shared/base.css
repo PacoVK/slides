@@ -1,0 +1,48 @@
+/*
+Front page
+*/
+.event {
+    margin: auto;
+    display: flex;
+}
+.participant {
+    width: 100%;
+}
+.participant .name p {
+    font-size: 0.6em;
+}
+.logo {
+    height: 20vh;
+}
+.rx-logo {
+    height: 10vh;
+    margin: 0 !important;
+}
+
+/*
+About section
+*/
+.social {
+    margin-top: 15px;
+}
+.social a {
+    margin: 10px;
+}
+
+/*
+Misc
+*/
+[data-context="with-list-header"] li:nth-of-type(1) {
+    background-color: lightsalmon;
+    padding: 0.5em;
+}
+
+.bullet-less ul {
+    list-style-type: none;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
