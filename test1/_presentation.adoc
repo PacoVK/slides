@@ -1,7 +1,7 @@
 :backend: revealjs
 :icons: font
 :revealjs_theme: simple
-:revealjsdir: ../../node_modules/reveal.js
+:revealjsdir: ../node_modules/reveal.js
 :revealjs_controls: false
 :revealjs_progress: false
 :revealjs_slideNumber: false
