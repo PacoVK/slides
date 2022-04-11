@@ -1,24 +1,11 @@
 {
-  "name": "pacoVK-slides",
+  "name": "pacoVK-slides-dependencies",
   "version": "1.0.0",
-  "description": "Collection of talks and drafts. Written with [Asciidoctor](https://asciidoctor.org/) and visualized with [reveal.js](https://revealjs.com/).",
+  "description": "[Reveal.js](https://revealjs.com/) dependency.",
   "main": "index.js",
-  "repository": "<changeme>",
   "author": "Pascal Euhus <pascal.euhus@gmx.de>",
   "license": "CC-BY-NC 4.0",
-  "scripts": {
-    "start": "node generator.js",
-    "build": "node generator.js build"
-  },
   "dependencies": {
-    "@asciidoctor/reveal.js": "^5.0.0-rc.1",
-    "asciidoctor": "^2.2.5",
-    "asciidoctor-emoji": "^0.3.4",
-    "asciidoctor-kroki": "^0.15.4",
-    "asciidoctor.js": "^1.5.9",
-    "chokidar": "^3.5.1",
-    "fs-extra": "^9.1.0",
-    "reveal.js": "^4.3.0",
-    "reveal.js-d3js": "^1.0.0"
+    "reveal.js": "^4.3.0"
   }
 }
