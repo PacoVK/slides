@@ -13,10 +13,18 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Make destination directory for compiled CSS
+          run: mkdir -vp ./_slides/index/assets
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.9
+        with:
+          source: _scss/main.scss
+          destination: ./_slides/index/assets/main.css
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: pages
           publish_dir: ./_slides
-          enable_jekyll: true
