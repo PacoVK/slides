@@ -19,7 +19,6 @@ const slideDirs = fs
     .filter(entry => fs.lstatSync(entry).isDirectory())
     .filter(dir => !dir.startsWith(`_`))
     .filter(dir => !dir.startsWith(`.`))
-    .filter(dir => dir !== `docs`)
     .filter(dir => dir !== `node_modules`)
 
 const contains = (parent, child) => {
@@ -39,19 +38,19 @@ const processChange = file => {
 
 const createPresentation = dir => {
     if(fs.pathExistsSync(`${dir}/styles`)){
-        fs.copySync(`${dir}/styles`, `docs/${dir}/styles`);
+        fs.copySync(`${dir}/styles`, `_slides/${dir}/styles`);
     }
     if(fs.pathExistsSync(`${dir}/plugins`)){
-        fs.copySync(`${dir}/plugins`, `docs/${dir}/plugins`);
+        fs.copySync(`${dir}/plugins`, `_slides/${dir}/plugins`);
     }
     if(fs.pathExistsSync(`${dir}/images`)){
-        fs.copySync(`${dir}/images`, `docs/${dir}/images`);
+        fs.copySync(`${dir}/images`, `_slides/${dir}/images`);
     }
-    fs.copySync(`_shared_images`, `docs/${dir}/images`);
+    fs.copySync(`_shared_images`, `_slides/${dir}/images`);
     const options = {
         safe: `unsafe`,
         backend: `revealjs`,
-        to_file: `docs/${dir}/index.html`,
+        to_file: `_slides/${dir}/index.html`,
     }
     asciidoctor.convertFile(`${dir}/_presentation.adoc`, options)
 }
