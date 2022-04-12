@@ -2,6 +2,7 @@
 /* Colors */
 $black: #262a2b;
 $grey: #b7b7b7;
+/* Tile Border */
 $green: #7dda54;
 $yellow: #ffc500;
 
@@ -24,11 +25,13 @@ body {
   list-style: none;
   text-align: center;
 }
+
 .tilesWrap a {
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
 }
+
 .tilesWrap li {
   display: inline-block;
   width: 20%;
@@ -44,6 +47,7 @@ body {
   border: 1px solid #252727;
   text-align: left;
 }
+
 .tilesWrap li h2 {
   font-size: 114px;
   margin: 0;
@@ -53,11 +57,19 @@ body {
   right: 10px;
   transition: all 0.3s ease-in-out;
 }
+
 .tilesWrap li h3 {
   font-size: 20px;
   color: $grey;
   margin-bottom: 5px;
 }
+
+.tilesWrap li h4 {
+  font-size: 15px;
+  color: $grey;
+  margin-top: 5px;
+}
+
 .tilesWrap li p {
   font-size: 16px;
   line-height: 18px;
@@ -79,6 +91,7 @@ body {
   background: #fff;
   transform: skew(2deg, 2deg);
 }
+
 .tilesWrap li:after {
   content: '';
   position: absolute;
@@ -88,6 +101,7 @@ body {
   top: 0;
   background: rgba(255, 255, 255, 0.02);
 }
+
 .tilesWrap li:before {
   background: $yellow;
   background: -webkit-linear-gradient(to right, $green, $yellow);
