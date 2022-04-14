@@ -1,0 +1,24 @@
+[.columns]
+== TL;DR; documentation
+
+[.column.is-third%step]
+* Know your audience
+* Less redundancy
+
+[.column.is-third%step]
+* Avoid ambiguity
+* Review process
+
+[.column.is-third%step]
+* Establish standards
+* Continuously update
+
+[.column%step]
+* Clearly arranged diagrams
+
+[.notes]
+****
+* diagramms - nicht thematisiert
+* ordentliche bilder lesen sich gut
+** infos die nötig sind
+****

@@ -1,0 +1,195 @@
+== 7 Smells of Documentation
+
+[%notitle,background-image="https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Non existent
+
+[.notes]
+****
+* Informationen fehlen
+* MA hat Firma verlassen
+* Keine Entscheidungsgrundlagen nachvollziehen
+** Das System das vor sich hin schimmelt
+** Wir müssen updaten (mehrere Wochen)
+****
+
+:box-background-color: rgba(255,255,255,0.0)
+:box-title: Non existent
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[%notitle, transition=zoom-in, background-image="https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Fix non existent
+
+:box-background-color: rgba(255,255,255,0.0)
+:box-title: Document
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[%notitle,background-image="https://images.unsplash.com/photo-1635772429028-f0375f2fbddb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Incomplete
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Incomplete
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Teil(Informationen) fehlen oder gar nicht vorhanden
+* Doku kann nicht als Referenz genutzt werden
+* Falsche Entscheidungsgrundlagen
+****
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1635772429028-f0375f2fbddb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Fix incomplete
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Review + Support
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Dokumentation in Qualitätsprozess aufnehmen
+* Mob programming + Protokoll
+* Hackdays
+****
+
+[%notitle,background-image="https://images.unsplash.com/photo-1619687483931-ede874e1ef8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"]
+== Legacy
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Legacy
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Nicht gepflegt
+* Teile fehlen oder veraltet
+* Doku kann nicht als Referenz genutzt werden
+* Falsche Entscheidungsgrundlagen
+****
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1619687483931-ede874e1ef8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"]
+== Prevent legacy
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Content-Strategy
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Prozesse zum curatieren und reviewen
+* Runbooks die geprüft werden
+* Living Docs
+****
+
+[%notitle,background-image="https://images.unsplash.com/photo-1622321789745-991d19be0e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"]
+== Lazy / Tangled
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Lazy / Tangled
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Entsteht meistens durch Braindump
+****
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1622321789745-991d19be0e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"]
+== Prevent Lazy / Tangled
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Scope
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Klare Abgrenzung was zu Dokumentieren ist und was nicht
+* Wer ist Zielgruppe?
+* Wieviel Kontext braucht es um verständlich zu sein?
+* Ist alle Information wirklich relevant?
+****
+
+[%notitle,background-image="https://images.unsplash.com/photo-1636013912260-a176d5e08408?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Redundancy
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Redundancy
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Klären wer Owner der Information ist
+* Single Source of Truth
+****
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1636013912260-a176d5e08408?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Fix redundancy
+
+:box-background-color: rgba(0,0,0,0.6)
+:box-title: Centralize and link
+:box-title-color: white
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* sei nicht ein neues Orginal sondern nutze Referenzen
+* andere haben evtl weitere alternative/ verbesserungen berücksichtigt
+* Referenz kann als validierung deiner Lösung dienen
+* Erweiterung des eigenen Horizonts
+****
+
+[%notitle,background-image="https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1792&q=80"]
+== Communication and Language
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Communication and Language
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1792&q=80"]
+== Fix Communication
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Ubiquitous Language
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* nutze standard vokabular
+** Kommunikation mit kürzeren Sätzen
+* Branchen Jargon nutzen
+** Jemand benennt bestimmte Pattern und etabliert Namen das formt gemeinsame Sprache
+* Dadurch können Referenzen gezogen werden
+****
+
+[%notitle,background-image="https://images.unsplash.com/photo-1490127252417-7c393f993ee4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&w=1740&q=80"]
+== Accessibility
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Accessibility
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[%notitle,transition=zoom-in,background-image="https://images.unsplash.com/photo-1490127252417-7c393f993ee4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&w=1740&q=80"]
+== Fix Accessibility
+
+:box-background-color: rgba(255,255,255,0.6)
+:box-title: Transparency/ Simplify access
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+[.notes]
+****
+* Mache Dokumentation allen Zugänglich
+** Hub
+* Vertrauen!
+* Jemand mit keinen/falschen Information kann nicht die beste Entscheidung treffen
+****

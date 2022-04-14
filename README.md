@@ -1,3 +1,3 @@
 # README #
 
-A readme for the repo
+Repo for all talks and draft of talks of mine

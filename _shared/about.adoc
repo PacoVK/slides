@@ -1,11 +1,11 @@
 == Thank you
 ++++
-Slides at <a href="####">pascal.euhus.dev</a>
+Slides at <a href="https://pascal.euhus.dev/slides">pascal.euhus.dev/slides</a>
 <br>
 <h3 style="margin: 1.5em 0 0">Meet Pascal</h3>
 <div class="social">
-    <a href="https://medium.com/@pascal.euhus">
-        <i class="fab fa-medium"></i> Medium
+    <a href="https://pascal.euhus.dev">
+        <i class="fab fa-browser"></i> website
     </a>
     <a href="https://twitter.com/pascal_euhus">
         <i class="fab fa-twitter-square"></i> @pascal_euhus

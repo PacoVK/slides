@@ -1,0 +1,41 @@
+:backend: revealjs
+:icons: font
+:revealjs_theme: simple
+:revealjsdir: ../node_modules/reveal.js
+:revealjs_controls: false
+:revealjs_progress: false
+:revealjs_slideNumber: false
+:revealjs_history: true
+:revealjs_center: true
+:revealjs_transition: fade
+:revealjs_backgroundTransition: fade
+:revealjs_parallaxBackgroundImage: images/background.jpg
+:revealjs_parallaxBackgroundSize: 4892px 3261px
+:source-highlighter: highlightjs
+:docinfo: shared
+
+=== Dokumentation in der Softwareentwicklung - The good, the bad and the ugly
+:host-name: JAX Mainz 2022
+:host-url: https://jax.de
+:host-logo-url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jax_logo.svg/1200px-Jax_logo.svg.png
+//:host-logo-style: background-color: #FFF; border-color: #FFF;
+:host-twitter-name: @jaxcon
+:host-twitter-url: https://twitter.com/jaxcon
+:rx-logo-url: https://cdn.reservix.com/webshop/config/398/portal-logo-dark.62488549.png
+include::../_shared/common.adoc[]
+
+// ######### //
+// I N T R O //
+// ######### //
+include::01_intro.adoc[]
+
+include::03_create_documentation.adoc[]
+
+include::02_smells_of_documentation.adoc[]
+
+
+include::04_good_documentation_style.adoc[]
+
+include::05_frameworks.adoc[]
+
+include::../_shared/about.adoc[]

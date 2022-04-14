@@ -1,0 +1,190 @@
+== Intro Pascal
+
+[%notitle]
+== Documentation definition
+
+[%step, data-context=saying]
+> The code is the best documentation.
+> -- Some Developers
+
+[%step, data-context=saying]
+> The code doesn’t tell the whole story.
+> -- Simon Brown
+
+[.notes]
+****
+* - Software Architecture for Developers
+* Welches Framework benutzt wird sieht man idR
+* Warum? (Bewusste Entscheidung?)
+* Alternativen? (gab es welche zum Zeitpunkt)
+* Kriterien? (welche Punkte wurden berücksichtigt?)
+* Randbedingung? (lizenzen)
+****
+
+== Simple workflow
+[plantuml]
+....
+(*) -r-> "Develop"
+-r-> "Commit"
+-r-> "Create MR"
+-r-> "Tests"
+if "Green" then
+    --> "Review"
+    if "" then
+        --> [true] "Merge"
+        -r-> (*)
+    else
+        --> [false]  "Develop"
+    endif
+else
+    --> [false]  "Develop"
+endif
+....
+
+== Definition of Done?!
+[%step]
+* Code compiles
+* Pipeline is green
+[%step]
+** Linter passed
+** Tests passed
+** (Test coverage)
+* (Acceptance criteria met)
+
+== Acceptance criteria?!
+[%step]
+* Functional
+[%step]
+** Works as intended
+* Non functional
+[%step]
+** Quality scenarios
+** Quality goals
+** Documentation
+** ...
+
+[%notitle]
+== Honest workflow
+[plantuml]
+....
+(*) -r-> "Develop"
+-r-> "Commit"
+-r-> "Create MR"
+-r-> "Tests"
+if "Green" then
+    --> "Request Review"
+        if "Reviewer available && urgent?" then
+            --> [true] "Review"
+                if "Code?" then
+                    if "Pass?" then
+                    --> [true] "Merge"
+                    -r-> (*)
+                    else
+                        --> [false]  "Develop"
+                    endif
+                else
+                    if "Documentation?" then
+                    --> [true] "Merge"
+                    else
+                        --> [false]  "Fix (maybe) later"
+                        --> "Merge"
+                    endif
+                endif
+        else
+            --> [false] "Merge"
+        endif
+else
+    --> [false]  "Develop"
+endif
+....
+
+[%notitle, background-image="https://images.unsplash.com/photo-1499377193864-82682aefed04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1764&q=80", background-opacity=0.4]
+== (Some) Reasons
+
+:box-background-color: rgba(255,255,255,0.0)
+:box-title: Reasons
+:box-title-color: black
+include::../_shared/title_with_box.adoc[]
+
+* We have no time
+* I don't like
+* No value on outcome
+
+[.notes]
+****
+* Letzter Punkt ist auch fachlich/ PM seitig
+****
+
+[.columns]
+== Why Documentation?
+
+[.column.is-half]
+[%step]
+* Knowledge persistence
+* Which problem(s) do we solve here?
+* Understand decisions (Context)
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1590086782974-e6e7b85e738e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80[Asking, 60%]
+
+[.columns]
+== Knowledge persistence
+
+[.column.is-half]
+[%step]
+* What if a person leaves the team?
+* What if a person leaves the company?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1561715608-5659baeccfb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80[Exit]
+
+[%notitle]
+== Documentation definition
+
+[data-context=saying]
+> Wer schreibt, der bleibt
+> -- Unknown
+
+[.columns]
+== Understanding the problem
+
+[.column.is-half]
+[%step]
+* Still existing?
+* Still relevant to business?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1611329857570-f02f340e7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80[Issue]
+
+[.columns]
+== Understanding the context
+
+[.column.is-half]
+[%step]
+* Still some constraints?
+* Are there better solutions?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1552345386-6690de5b2c09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80[NoClue]
+
+[%notitle, background-image="https://images.unsplash.com/photo-1568581357391-c71a1675ef93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Outcome
+
+[%notitle, background-image="https://images.unsplash.com/photo-1594718200327-17b749e753e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"]
+== Dont like
+
+[.columns]
+== Document with fun
+
+[.column.is-half]
+[%step]
+* Use the tool(s) you like most
+* Automate
+* Ease documentation review
+* Set a clear scope
+[%step]
+** what
+** for whom
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1584367369853-8b966cf223f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80[Fun, 80%]
