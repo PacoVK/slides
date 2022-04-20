@@ -1,13 +1,28 @@
-== Intro Pascal
+[.columns]
+== Pascal Euhus
 
-[%notitle]
+[.column.has-text-left]
+--
+* Software Architect
+* Lazy
+* Cloud Enthusiast
+* Boulderer
+--
+
+[.column.is-one-third]
+image::images/pascal.png[]
+
+[%notitle, background-image="images/reservix.png"]
+== Reservix
+
+[.columns%notitle]
 == Documentation definition
 
-[%step, data-context=saying]
+[.column%step, data-context=saying]
 > The code is the best documentation.
 > -- Some Developers
 
-[%step, data-context=saying]
+[.column%step, data-context=saying]
 > The code doesn’t tell the whole story.
 > -- Simon Brown
 

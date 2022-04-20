@@ -98,7 +98,7 @@ include::../_shared/title_with_box.adoc[]
 * ...
 
 [.column.bullet-less%step, data-context="with-list-header"]
-* References
+* Misc
 * Style-Guides
 * Agile methodologies
 * ...

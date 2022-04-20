@@ -29,13 +29,12 @@ include::../_shared/common.adoc[]
 // ######### //
 include::01_intro.adoc[]
 
-include::03_create_documentation.adoc[]
-
 include::02_smells_of_documentation.adoc[]
-
 
 include::04_good_documentation_style.adoc[]
 
 include::05_frameworks.adoc[]
+
+include::sources.adoc[]
 
 include::../_shared/about.adoc[]
