@@ -1,0 +1,73 @@
+[.columns]
+== Why Documentation?
+
+[.column.is-half]
+[%step]
+* Knowledge persistence
+* Which problem(s) do we solve here?
+* Understand decisions (Context)
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1590086782974-e6e7b85e738e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80[Asking, 60%]
+
+[.columns]
+== Knowledge persistence
+
+[.column.is-half]
+[%step]
+* What if a person leaves the team?
+* What if a person leaves the company?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1561715608-5659baeccfb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80[Exit]
+
+[%notitle]
+== Documentation definition
+
+[data-context=saying]
+> Wer schreibt, der bleibt
+> -- Unknown
+
+[.columns]
+== Understanding the problem
+
+[.column.is-half]
+[%step]
+* Still existing?
+* Still relevant to business?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1611329857570-f02f340e7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80[Issue]
+
+[.columns]
+== Understanding the context
+
+[.column.is-half]
+[%step]
+* Still some constraints?
+* Are there better solutions?
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1552345386-6690de5b2c09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80[NoClue]
+
+[%notitle, background-image="https://images.unsplash.com/photo-1568581357391-c71a1675ef93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+== Outcome
+
+[%notitle, background-image="https://images.unsplash.com/photo-1594718200327-17b749e753e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"]
+== Dont like
+
+[.columns]
+== Document with fun
+
+[.column.is-half]
+[%step]
+* Use the tool(s) you like most
+* Automate
+* Ease documentation review
+* Set a clear scope
+[%step]
+** what
+** for whom
+
+[.column.is-half]
+image::https://images.unsplash.com/photo-1584367369853-8b966cf223f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80[Fun, 80%]

@@ -4,7 +4,7 @@
 :revealjsdir: ../node_modules/reveal.js
 :revealjs_controls: false
 :revealjs_progress: false
-:revealjs_slideNumber: false
+:revealjs_slideNumber: true
 :revealjs_history: true
 :revealjs_center: true
 :revealjs_transition: fade
@@ -29,11 +29,13 @@ include::../_shared/common.adoc[]
 // ######### //
 include::01_intro.adoc[]
 
-include::02_smells_of_documentation.adoc[]
+include::02_why_documentation.adoc[]
+
+include::03_smells_of_documentation.adoc[]
 
 include::04_good_documentation_style.adoc[]
 
-include::05_frameworks.adoc[]
+include::05_tools_frameworks.adoc[]
 
 include::sources.adoc[]
 

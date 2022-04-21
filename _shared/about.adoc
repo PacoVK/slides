@@ -5,7 +5,7 @@ Slides at <a href="https://pascal.euhus.dev/slides">pascal.euhus.dev/slides</a>
 <h3 style="margin: 1.5em 0 0">Meet Pascal</h3>
 <div class="social">
     <a href="https://pascal.euhus.dev">
-        <i class="fab fa-browser"></i> website
+        <i class="fa fa-globe"></i> website
     </a>
     <a href="https://twitter.com/pascal_euhus">
         <i class="fab fa-twitter-square"></i> @pascal_euhus

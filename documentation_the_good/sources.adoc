@@ -1,16 +1,26 @@
+[.columns]
 == References
-NeONBRAND - https://unsplash.com/photos/KYxXMTpTzek
-Ludovic Migneault https://unsplash.com/photos/B9YbNbaemMI
-Pierre Bamin https://unsplash.com/photos/5B0IXL2wAQ0
-Mark Eder https://unsplash.com/photos/R9OS29xJb-8
-Kier in Sight https://unsplash.com/photos/4bhhwmsYl-c
-Marten Newhall https://unsplash.com/photos/uAFjFsMS3YY
-愚木混株 cdd20 https://unsplash.com/photos/HQH-GOZ6K2c
-Giuseppe CUZZOCREA https://unsplash.com/photos/E5kBdpQ7kQw
-Sebastian Herrmann https://unsplash.com/photos/jzTQVxCyKYs
-Sigmund https://unsplash.com/photos/B-x4VaIriRc
-Andrew Teoh https://unsplash.com/photos/SKrgZQgYy2g
-Mackenzie Marco https://unsplash.com/photos/XG88BYDSDZA
-Nathan Dumlao https://unsplash.com/photos/eUbNeGQEh2U
-engin akyurt https://unsplash.com/photos/uUM_Yv16oFs
-Chris Liverani https://unsplash.com/photos/9cd8qOgeNIY
+:customcss: styles/customize.css
+
+[.column]
+* 4 - Fusion Medical Animation https://unsplash.com/photos/EAgGqOiDDMg
+* 10 - NeONBRAND https://unsplash.com/photos/KYxXMTpTzek
+* 11 - Ludovic Migneault https://unsplash.com/photos/B9YbNbaemMI
+* 14 - Pierre Bamin https://unsplash.com/photos/5B0IXL2wAQ0
+* 20 - Mark Eder https://unsplash.com/photos/R9OS29xJb-8
+* 26 - Kier in Sight https://unsplash.com/photos/4bhhwmsYl-c
+
+[.column]
+* 41 - Ben Stein https://unsplash.com/photos/nH07tOdhqMY
+* 28 - 愚木混株 cdd20 https://unsplash.com/photos/HQH-GOZ6K2c
+* 24 - Giuseppe CUZZOCREA https://unsplash.com/photos/E5kBdpQ7kQw
+* 22 - Sigmund https://unsplash.com/photos/B-x4VaIriRc
+* 15 - Sebastian Herrmann https://unsplash.com/photos/jzTQVxCyKYs
+* 12 - Andrew Teoh https://unsplash.com/photos/SKrgZQgYy2g
+
+[.column]
+* 16 - Mackenzie Marco https://unsplash.com/photos/XG88BYDSDZA
+* 18 - Nathan Dumlao https://unsplash.com/photos/eUbNeGQEh2U
+* 17 - engin akyurt https://unsplash.com/photos/uUM_Yv16oFs
+* 30 - Chris Liverani https://unsplash.com/photos/9cd8qOgeNIY
+* 32 - Marten Newhall https://unsplash.com/photos/uAFjFsMS3YY
