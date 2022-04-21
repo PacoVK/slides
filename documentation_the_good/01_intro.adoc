@@ -54,20 +54,20 @@ image::images/pascal.png[]
 == Simple workflow
 [plantuml]
 ....
-(*) -r-> "Develop"
--r-> "Commit"
--r-> "Create MR"
--r-> "Tests"
-if "Green" then
+(*) -> "Develop"
+-> "Commit"
+-> "Create MR"
+-> "Tests"
+if "green" then
     --> "Review"
     if "" then
-        --> [true] "Merge"
-        -r-> (*)
+        -> [true] "Merge"
+        -> (*)
     else
-        --> [false]  "Develop"
+        -> [false]  "Develop"
     endif
 else
-    --> [false]  "Develop"
+    -> [false]  "Develop"
 endif
 ....
 
@@ -101,19 +101,19 @@ endif
 -r-> "Commit"
 -r-> "Create MR"
 -r-> "Tests"
-if "Green" then
+if "green" then
     --> "Request Review"
-        if "Reviewer available && urgent?" then
+        if "reviewer available && urgent?" then
             --> [true] "Review"
-                if "Code?" then
-                    if "Pass?" then
+                if "code?" then
+                    if "pass?" then
                     --> [true] "Merge"
                     -r-> (*)
                     else
                         --> [false]  "Develop"
                     endif
                 else
-                    if "Documentation?" then
+                    if "documentation?" then
                     --> [true] "Merge"
                     else
                         --> [false]  "Fix (maybe) later"

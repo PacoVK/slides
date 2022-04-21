@@ -1,6 +1,5 @@
 [.columns]
 == References
-:customcss: styles/customize.css
 
 [.column]
 * 4 - Fusion Medical Animation https://unsplash.com/photos/EAgGqOiDDMg

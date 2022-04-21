@@ -13,6 +13,7 @@
 :revealjs_parallaxBackgroundSize: 4892px 3261px
 :source-highlighter: highlightjs
 :docinfo: shared
+:customcss: styles/customize.css
 
 === Dokumentation in der Softwareentwicklung - The good, the bad and the ugly
 :host-name: JAX Mainz 2022
