@@ -34,9 +34,9 @@ include::02_why_documentation.adoc[]
 
 include::03_smells_of_documentation.adoc[]
 
-include::04_good_documentation_style.adoc[]
+include::04_tools_frameworks.adoc[]
 
-include::05_tools_frameworks.adoc[]
+include::05_resume.adoc[]
 
 include::sources.adoc[]
 
