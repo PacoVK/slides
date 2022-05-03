@@ -90,20 +90,20 @@ include::../_shared/title_with_box.adoc[]
 
 [.column.bullet-less%step, data-context="with-list-header"]
 * Templates
-* Arc42
-* ADRs
+* https://www.arc42.de/[Arc42]
+* https://blog.mayflower.de/10935-architectural-decision-records.html[ADRs]
 * ...
 
 [.column.bullet-less%step, data-context="with-list-header"]
 * Tooling
-* DocToolchain
-* Antorra
-* Backstage.io
+* https://doctoolchain.org/docToolchain/v2.0.x/[DocToolchain]
+* https://antora.org/[Antora]
+* https://backstage.io/[Backstage.io]
 * ...
 
 [.column.bullet-less%step, data-context="with-list-header"]
 * Misc
-* Style-Guides
+* https://docs.microsoft.com/en-us/style-guide/welcome/[Style-Guides]
 * Agile methodologies
 * ...
 

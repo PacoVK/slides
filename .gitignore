@@ -2,6 +2,3 @@
 node_modules/
 
 !_slides/node_modules
-
-#prevent from beeing published
-_slides/documentation_the_good

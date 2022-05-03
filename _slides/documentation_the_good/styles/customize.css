@@ -1,0 +1,16 @@
+#_references .slide-content {
+    font-size: 50%;
+}
+
+#_simple_workflow .kroki img {
+    width: 70%;
+}
+
+#_honest_workflow .kroki img {
+    margin-top: 0px;
+    width: 40%;
+}
+
+#_dokumentation_in_der_softwareentwicklung_the_good_the_bad_and_the_ugly h2 {
+    font-size: 1.8em;
+}

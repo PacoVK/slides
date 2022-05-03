@@ -17,7 +17,7 @@ endif::[]
 <div class="event">
     <div class="participant">
 		<div class="name">
-			<p><a href="https://medium.com/pascal.euhus">Pascal Euhus</a></p>
+			<p><a href="https://pascal.euhus.dev">Pascal Euhus</a></p>
 			<p>Software Architect</p>
 		</div>
 	</div>

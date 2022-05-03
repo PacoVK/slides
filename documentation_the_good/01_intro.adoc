@@ -27,7 +27,7 @@ image::images/pascal.png[]
 * Fluktuation
 ** Wissen verlässt Firma
 * Prozesse müssen neu gedacht werden
-* Verstärkungen in Bereichen wegen Dringlichkeit
+* Ad-Hoc Verstärkung in Bereichen wegen Dringlichkeit
 ****
 
 [.columns%notitle]
@@ -89,7 +89,7 @@ endif
 * Non functional
 [%step]
 ** Quality scenarios
-** Quality goals
+** Security
 ** Documentation
 ** ...
 
