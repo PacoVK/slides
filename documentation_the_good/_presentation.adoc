@@ -11,6 +11,7 @@
 :revealjs_backgroundTransition: fade
 :revealjs_parallaxBackgroundImage: images/background.jpg
 :revealjs_parallaxBackgroundSize: 4892px 3261px
+:revealjs_pdfSeparateFragments: false
 :source-highlighter: highlightjs
 :docinfo: shared
 :customcss: styles/customize.css
