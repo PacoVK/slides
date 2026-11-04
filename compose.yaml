@@ -1,0 +1,30 @@
+# Local preview of the slides landing page with live reload.
+#   docker compose up   ->  http://localhost:3000
+# CSS changes are injected without a reload; HTML changes reload the page.
+services:
+  slides:
+    image: node:26-alpine
+    working_dir: /srv
+    command:
+      - npx
+      - --yes
+      - browser-sync@3.0.4
+      - start
+      - --server
+      - _slides
+      - --files
+      - _slides/index.html
+      - _slides/index/assets/**/*.css
+      - --port
+      - "3000"
+      - --no-open
+      - --no-notify
+      - --no-ui
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/srv
+      - npm-cache:/root/.npm
+
+volumes:
+  npm-cache:

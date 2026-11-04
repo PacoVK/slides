@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # Actions used by .github/workflows/deploy.yml, grouped into one PR
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+    labels:
+      - "dependencies"
+
+  # The Node image of the local preview in compose.yaml
+  - package-ecosystem: "docker-compose"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
